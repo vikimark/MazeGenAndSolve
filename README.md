@@ -1,6 +1,6 @@
 # MazeGenAndSolve
 
-Control
+Control<br />
 spacebar : start generate maze<br />
 wait untill the maze is successfully generated.  
 s : set start position  
