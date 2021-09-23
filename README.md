@@ -1,7 +1,7 @@
 # MazeGenAndSolve
 
 Control<br />
-'spacebar' : start generating maze(please wait untill the maze is successfully generated)  
+'m' : start generating maze(please wait untill the maze is successfully generated)  
 's' : set start position  
 'g' : set goal position  
 'r' : run solver  
