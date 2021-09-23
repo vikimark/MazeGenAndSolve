@@ -15,7 +15,7 @@ function setup() {
 	graph.initAPath(start, goal);
 	// put setup code here
 
-	txt = "Control<br />\'spacebar\' : start generating maze(please wait untill the maze is successfully generated)<br />\'s\' : set start position<br />\'g\' : set goal position<br />\'r\' : run solver<br />you can set new start and goal position and press r to run solver again.<br />If the program isn't working, try changing language and then try again."
+	txt = "Control<br />\'m\' : start generating maze(please wait untill the maze is successfully generated)<br />\'s\' : set start position<br />\'g\' : set goal position<br />\'r\' : run solver<br />you can set new start and goal position and press r to run solver again.<br />If the program isn't working, try changing language and then try again."
 	createP(txt);
 
 }
@@ -57,7 +57,7 @@ function keyPressed(){
 		run = true;
 		graph.reset();
 		graph.initAPath(start, goal);
-	}else if(key == ' '){
+	}else if(key == 'm'){
 		initRun = true;
 	}
 }
